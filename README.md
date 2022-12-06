@@ -16,7 +16,7 @@ To verify that this input data is being sent to the PC, you must:
 7) when the tracker is restarted, type the `axis` command to dump out input data to the console
 
 You should see an output like below:
-![lighthouse_console Axis Output](images/lh_output.jpg)
+![lighthouse_console Axis Output](images/simple_tmi_lh_output.png)
 
 Here we can see that the alternating 0x00 and 0x04 is the toggling of the a button
 The 2nd byte that is incrementing upward represents the trigger value
