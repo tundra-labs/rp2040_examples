@@ -1,8 +1,8 @@
 [
     {
         "language_tag": "en_US",
-        "logitech_stylus": "Logitech Stylus",
-        "logitech_stylus_raw": "Logitech Stylus Raw",
+        "simple_tmi": "Logitech Stylus",
+        "simple_tmi_raw": "Logitech Stylus Raw",
         "/input/primary": "Primary Button",
         "/input/tip": "Analog Tip",
         "/input/grip": "Grip Button",

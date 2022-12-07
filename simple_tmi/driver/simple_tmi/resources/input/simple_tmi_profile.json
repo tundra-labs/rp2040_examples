@@ -1,14 +1,14 @@
 {
     "jsonid": "input_profile",
-    "controller_type": "logitech_stylus",
-    "legacy_profile": "logitech_stylus",
-    "legacy_binding": "{logitech_stylus}/input/legacy_bindings_logitech_stylus.json",
+    "controller_type": "simple_tmi",
+    "legacy_profile": "simple_tmi",
+    "legacy_binding": "{simple_tmi}/input/legacy_bindings_simple_tmi.json",
     "input_bindingui_mode": "controller_handed",
     "input_bindingui_left": {
-        "image": "{logitech_stylus}/icons/VR_INK_Left_Angled.svg"
+        "image": "{simple_tmi}/icons/VR_INK_Left_Angled.svg"
     },
     "input_bindingui_right": {
-        "image": "{logitech_stylus}/icons/VR_INK_Right_Angled.svg"
+        "image": "{simple_tmi}/icons/VR_INK_Right_Angled.svg"
     },
     "input_source": {
         "/input/system": {
