@@ -1,0 +1,24 @@
+{
+	"jsonid" : "vrresources",
+	"statusicons" : {
+		"Controller" :  {
+			"Prop_NamedIconPathDeviceOff_String" : 				"{logitech_stylus}/icons/logi_stylus_off.png",
+			"Prop_NamedIconPathDeviceSearching_String" : 		"{logitech_stylus}/icons/logi_stylus_searching.gif",
+			"Prop_NamedIconPathDeviceSearchingAlert_String" :	"{logitech_stylus}/icons/logi_stylus_searching_alert.gif",
+			"Prop_NamedIconPathDeviceReady_String" : 			"{logitech_stylus}/icons/logi_stylus_ready.png",
+			"Prop_NamedIconPathDeviceReadyAlert_String" : 		"{logitech_stylus}/icons/logi_stylus_ready_alert.png",
+			"Prop_NamedIconPathDeviceNotReady_String" : 		"{logitech_stylus}/icons/logi_stylus_error.png",
+			"Prop_NamedIconPathDeviceStandby_String" : 			"{logitech_stylus}/icons/logi_stylus_off.png",
+			"Prop_NamedIconPathDeviceAlertLow_String" : 		"{logitech_stylus}/icons/logi_stylus_ready_low.png"
+		},
+        "logi_pen_v3.0": {
+            "Alias": "Controller"
+        },
+        "logi_pen_v4.0": {
+            "Alias": "Controller"
+        },
+        "logi_stylus_v4.0": {
+            "Alias": "Controller"
+        }
+    }
+}

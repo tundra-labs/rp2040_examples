@@ -1,0 +1,294 @@
+{
+   "action_manifest_version" : 0,
+   "alias_info" : {},
+   "app_key" : "openvr.component.vrcompositor",
+   "bindings" : {
+      "/actions/lasermouse" : {
+         "poses" : [
+            {
+               "output" : "/actions/lasermouse/in/Pointer",
+               "path" : "/user/hand/left/pose/tip"
+            },
+            {
+               "output" : "/actions/lasermouse/in/Pointer",
+               "path" : "/user/hand/right/pose/tip"
+            },
+            {
+               "output" : "/actions/lasermouse/in/pointer",
+               "path" : "/user/stylus/pose/base"
+            },
+            {
+               "output" : "/actions/lasermouse/in/pointer",
+               "path" : "/user/treadmill/pose/base"
+            }
+         ],
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/LeftClick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/Back"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/Home"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/application_menu"
+            },
+            {
+               "inputs" : {
+                  "position" : {
+                     "output" : "/actions/lasermouse/in/TrackpadValue"
+                  },
+                  "touch" : {
+                     "output" : "/actions/lasermouse/in/TrackpadTouch"
+                  }
+               },
+               "mode" : "trackpad",
+               "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/lasermouse/in/TrackpadScroll"
+                  }
+               },
+               "mode" : "trackpad_scroll",
+               "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "east" : {
+                     "output" : "/actions/lasermouse/in/RightClick"
+                  }
+               },
+               "mode" : "dpad_click",
+               "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/LeftClick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/Back"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/Home"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/application_menu"
+            },
+            {
+               "inputs" : {
+                  "position" : {
+                     "output" : "/actions/lasermouse/in/TrackpadValue"
+                  },
+                  "touch" : {
+                     "output" : "/actions/lasermouse/in/TrackpadTouch"
+                  }
+               },
+               "mode" : "trackpad",
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/lasermouse/in/TrackpadScroll"
+                  }
+               },
+               "mode" : "trackpad_scroll",
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "east" : {
+                     "output" : "/actions/lasermouse/in/RightClick"
+                  }
+               },
+               "mode" : "dpad_click",
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/leftclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/stylus/input/primary"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/leftclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/treadmill/input/primary"
+            },
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/lasermouse/in/trackpadvalue"
+                  }
+               },
+               "mode" : "scroll",
+               "path" : "/user/stylus/input/touchstrip"
+            },
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/lasermouse/in/trackpadvalue"
+                  }
+               },
+               "mode" : "scroll",
+               "path" : "/user/treadmill/input/touchstrip"
+            }
+         ]
+      },
+      "/actions/lasermouse_secondary" : {
+         "poses" : [],
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse_secondary/in/SwitchLaserHand"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse_secondary/in/SwitchLaserHand"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trigger"
+            }
+         ]
+      },
+      "/actions/system" : {
+         "chords" : [
+            {
+               "inputs" : [
+                  [ "/user/hand/left/input/system", "held" ],
+                  [ "/user/hand/left/input/trigger", "click" ]
+               ],
+               "output" : "/actions/system/in/TakeScreenshot"
+            },
+            {
+               "inputs" : [
+                  [ "/user/hand/right/input/system", "held" ],
+                  [ "/user/hand/right/input/trigger", "click" ]
+               ],
+               "output" : "/actions/system/in/TakeScreenshot"
+            }
+         ],
+         "sources" : [
+            {
+               "inputs" : {},
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {},
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/system/in/ToggleDashboard"
+                  },
+                  "double" : {
+                     "output" : "/actions/system/in/ToggleRoomView"
+                  },
+                  "held" : {
+                     "output" : "/actions/system/in/SystemButtonChord"
+                  },
+                  "long" : {
+                     "long_press_delay" : 1.5,
+                     "output" : "/actions/system/in/ShowPowerMenu"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/system"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/system/in/ToggleDashboard"
+                  },
+                  "double" : {
+                     "output" : "/actions/system/in/ToggleRoomView"
+                  },
+                  "held" : {
+                     "output" : "/actions/system/in/SystemButtonChord"
+                  },
+                  "long" : {
+                     "long_press_delay" : 1.5,
+                     "output" : "/actions/system/in/ShowPowerMenu"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/system"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/system/in/toggledashboard"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/stylus/input/system"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/system/in/toggledashboard"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/treadmill/input/system"
+            }
+         ]
+      }
+   },
+   "category" : "steamvr_input",
+   "controller_type" : "logitech_stylus",
+   "description" : "",
+   "name" : "VR Compositor configuration for Logitech VR Ink",
+   "options" : {},
+   "simulated_actions" : []
+}
