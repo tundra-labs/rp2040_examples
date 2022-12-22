@@ -316,3 +316,15 @@ The following is an example of input_components for the Logitech VR Ink pen:
 To debug your input, you can access the debugger by selecting Devices > Controller Settings > Test Controller.  Then selecting your controller from the list in the lower left drop down selector.
 
 ![Controller Debugger](images/ControllerDebugger.PNG)
+
+## Support for Original Breakout Board
+These examples are best tested with the Tundra Labs RP2040 Breakout board.  It is however possible to connect a development board to the tracker using the original Breakout board.  The following is how to make the connections:
+
+| IOBB Pin Name | Description | RP2040 Pin  |
+| ------------- | ----------- | ----------- |
+| Trigger       | MISO        | 15          |
+| Menu          | MOSI        | 12          |
+| Grip          | SCLK        | 14          |
+| Trackpad      | CSN         | 13          |
+
+RP2040 is not the only MCU where this protocol is possible but it is the only MCU that we will support.  Advanced developers can implement their own SPI Slave drivers for other MCUs and communicate with Tundra Tracker as well.  We can unnofficially link you GitHub projects here:
