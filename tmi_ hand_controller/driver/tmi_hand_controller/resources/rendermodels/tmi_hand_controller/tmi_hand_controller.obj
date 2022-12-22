@@ -1,5 +1,5 @@
-mtllib tundra_tracker_v1.mtl
-o tundra_tracker
+mtllib tmi_hand_controller.mtl
+o tmi_hand_controller
 v 0.005432 -0.008190 -0.026983
 v 0.005010 -0.007767 -0.027000
 v 0.005155 -0.007683 -0.026772

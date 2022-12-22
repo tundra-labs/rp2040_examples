@@ -1,6 +1,6 @@
 {
 	"alwaysActivate": true,
-	"name" : "logitech_stylus",
+	"name" : "tmi_hand_controller",
 	"directory" : "",
 	"resourceOnly" : false,
 	"hmd_presence" : []
