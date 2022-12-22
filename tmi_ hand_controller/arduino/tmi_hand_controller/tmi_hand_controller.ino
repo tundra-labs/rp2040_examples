@@ -75,6 +75,8 @@ void loop() {
   if ( millis() > next_time )
   {
     // Simulate some changing controller data just by incrementing and toggling
+    // This is the start of demo code, delete this if you do not want simulated input data
+    // ----------------Begin input data simulation ----------------
     controller_data.a = led_state;
     controller_data.trigger +=increment;
     
@@ -101,6 +103,8 @@ void loop() {
       controller_data.thumbstick_x = 0;    
       controller_data.thumbstick_y += increment;       
     }
+
+    // ----------------End of input data simulation ----------------
 
     // Twiddle the LED
     digitalWrite(RP2040_BB_LED, led_state ^= true);

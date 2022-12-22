@@ -54,8 +54,7 @@ bool TMI::init( )
   _dma_done = false;
 
   _tx_buff.header.spi_protocol_rev = 1;
-  _tx_buff.header.spi_protocol_rev  = 1;
-  _tx_buff.header.report_mode  = 3;
+  _tx_buff.header.report_mode  = MI_PROTOCOL_REVISON_GENERIC;
 
   _event_queue_push_i = 0;
   _event_queue_pull_i = 0;
@@ -82,11 +81,11 @@ void TMI::set_legacy_mode( bool enable )
 {
   if ( enable )
   {
-    _tx_buff.header.spi_protocol_rev = 1;
+  _tx_buff.header.report_mode  = MI_PROTOCOL_REVISON_V1_CONTROLLER;
   }
   else
   {
-    _tx_buff.header.spi_protocol_rev = 3;
+  _tx_buff.header.report_mode  = MI_PROTOCOL_REVISON_GENERIC;
   }
 }
 
