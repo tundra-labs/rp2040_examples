@@ -7,6 +7,8 @@ You can use the provided cables to upload the Arduino sketch to the RP2040 Break
 In order to install the tmi_hand_controller Controller StewamVR driver you must copy the `tmi_ hand_controller\driver/tmi_hand_controller` folder to the SteamVR directory typically located at 
 `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers`
 ![Driver folder](../images/driver_folder2.PNG)
+
+
 the structure inside of `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\tmi_hand_controller` should look like this:
 ![Inside tmi_hand_controller](../images/driver_folder2.PNG)
 
