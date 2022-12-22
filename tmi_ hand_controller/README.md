@@ -13,7 +13,8 @@ the structure inside of `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\d
 ![Inside tmi_hand_controller](../images/driver_folder2.PNG)
 
 ## Step 2: Modify the Tundra Tracker Device JSON Configuration
-*** Caution, do not connect any other SteamVR devices to your PC during testing.  Especially your HMD ***
+
+***Caution, do not connect any other SteamVR devices to your PC during testing.  Especially your HMD***
 
 To verify that this input data is being sent to the PC, you must:
 0) Connect your tracker to your PC via USB, disconnect all dongles, HMD, controller, etc
