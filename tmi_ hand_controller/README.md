@@ -25,6 +25,7 @@ To verify that this input data is being sent to the PC, you must:
 
 ***If you have more than one device listed here, do not move forward, disconnect everything else!***
 
+4) download a backup of the Tracker json file using `downloadconfig backup.json`
 4) download the Tracker json file using `downloadconfig t.json`
 5) open the configuration and add the following line to the `"firmware_config":{...}` block
   `"mapped_input" : true`
@@ -63,3 +64,20 @@ The sample code in this repository creates the datastructure and then uses code 
 Please be sure to share your projects with us on twitter!
 
 @tundra_labs
+
+## Step 5: Getting back to Original Tracker Functions
+If following the instructions, you should have archived a backup of your device json.  To undo, just upload this json again to your tracker:
+
+***Caution, do not connect any other SteamVR devices to your PC during testing.  Especially your HMD***
+
+To verify that this input data is being sent to the PC, you must:
+
+1) Connect your tracker to your PC via USB, disconnect all dongles, HMD, controller, etc
+2) Start lighthouse_console from `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\tools\lighthouse\bin\win32`
+3) Verify that there is only one device connected:
+![Only 1 device!!!](../images/only1.png)
+
+***If you have more than one device listed here, do not move forward, disconnect everything else!***
+
+4) upload the backup of the Tracker json file using `uploadconfig backup.json`
+5) use the command `reboot` to restart the tracker
