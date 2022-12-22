@@ -315,3 +315,4 @@ The following is an example of input_components for the Logitech VR Ink pen:
 ## Input Debugging
 To debug your input, you can access the debugger by selecting Devices > Controller Settings > Test Controller.  Then selecting your controller from the list in the lower left drop down selector.
 
+![Controller Debugger](images/ControllerDebugger.PNG)
