@@ -83,5 +83,6 @@ To verify that this input data is being sent to the PC, you must:
 5) use the command `reboot` to restart the tracker
 
 Inevitably everyone at some point looses a Json file or writes it to the wrong device :(
-        * Find archives in your PC in the following folder: `C:\Program Files (x86)\Steam\config\lighthouse`
-        * Here you will find a json file from every serial number device that you have ever connected to steam (Thanks Valve!)
+  
+* Find archives in your PC in the following folder: `C:\Program Files (x86)\Steam\config\lighthouse`
+* Here you will find a json file from every serial number device that you have ever connected to steam (Thanks Valve!)
