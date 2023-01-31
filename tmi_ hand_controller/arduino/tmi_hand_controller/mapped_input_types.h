@@ -187,6 +187,16 @@ typedef struct __attribute__( ( packed, aligned( 1 ) ) )
 }
 mi_master_dfu_frame_t;
 
+typedef struct __attribute__( ( packed, aligned( 1 ) ) )
+{
+  uint8_t                   spi_protocol_rev;
+  uint8_t                   frame_id;
+  uint8_t                   cmd;
+  uint8_t                   length;
+  uint8_t                   payload[64];
+}
+mi_master_dfu_frame_t;
+
 #pragma pack(pop)
 
 #endif
